@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.custom-shadow{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-img {
+    width: 100%; 
+    height: 600px; 
+    object-fit: cover; 
+}
+
+.data-science-img{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.content{
+    overflow: hidden;
+    width: 100%;
+    gap: 100px;
+}
+
+h3{
+    font-style: bold;    
+}
+
+p{
+    font-size: 10px;
+}
+
+h5{
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 50;
+    max-width: 300px;
+}
+
+.details button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    float: right;
+}
+
+.article-img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.content li{
+    list-style: none;
+}
+
+.content button{
+    float: right;
+    border-radius: 10px;
+}
+
+.content p{
+    max-width: 300px; /* Atur lebar maksimum sesuai kebutuhan */
+            overflow: hidden; /* Sembunyikan konten yang melebihi batas */
+            text-overflow: ellipsis; /* Tambahkan ellipsis (...) */
+            white-space: nowrap;
+}
+
+
+
+
